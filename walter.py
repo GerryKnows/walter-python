@@ -60,6 +60,9 @@
 
 # print("The name selected is: ", selectRandom(names))
 
+
+
+
 print('''
 
 hola, 
@@ -75,7 +78,7 @@ nombre = (input('''
 signo = (input(''' 
 ¿Cuál es su signo zodiacal?: '''))
 
-import secrets
+
 
 names = ['las pruebas en la vida siempre sirven para avanzar',
 'de todo se puede aprender, plantéeselo así cuando vea que surgen problemas', 
@@ -118,9 +121,11 @@ walter = ['No más limitaciones, ni más no puedo: TODO ES POSIBLE', 'Suelto el 
 'Nunca te canses de intentar que tu vida es mejor, la perseverancia siempre tiene su recompensa', 'Soy capitán de mi vida, yo determino mi futuro',
 'Si no me vas a ayudar a volar, despéjame la pista', 'Aprende del ayer, vive hoy y ten esperanza para el mañana', 'De ti depende tu éxito o tu fracaso',
 ]
+ 
+import secrets
 
 def selectRandom(names):
-  return secrets.choice(names)
+    return secrets.choice(names)
 
 print(f'''
 
@@ -133,7 +138,13 @@ print(f'''
 print(f'''
  
 {selectRandom(walter)}
-le deseo paz, mucha paz y sobre todo mucho amor <3 ................. su amigo Walter la IA ''' )
+le deseo paz, mucha paz y sobre todo mucho amor <3 ................. su amigo Walter la IA 
+
+
+
+''' )
+
+
 
 
 
